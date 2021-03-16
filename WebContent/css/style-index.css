@@ -1,0 +1,319 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+    text-decoration:none;
+    color:#333;
+    font-family: 'Noto Sans KR', sans-serif;
+    /* font-family: 'Covered By Your Grace', cursive;
+    font-family: 'Lacquer', cursive;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Just Me Again Down Here', cursive;
+    font-family: 'Rock Salt', cursive;
+    font-family: 'Zeyada', cursive; */
+}
+body{
+    width:100%;
+    height:auto;
+}
+span{
+    color:#8ac2ad;
+}
+.linkr{
+    font-size:1.4em;
+    font-weight:500;
+}
+.link-cap{
+    font-size:0.88em;
+    font-weight:400;
+    line-height:1.9em;
+    padding-top:0;
+    margin:0;
+}
+.ctnr{
+    width:100%;
+    height:auto;
+}
+.ctnr .bh{
+    width:100%;
+    height:600px;
+    background:url("../images/3864323.png") no-repeat #adbb9e;
+    background-size:cover;
+    background-position:center center;
+    /* opacity:0.9; */
+}
+.ctnr .bh .nh{
+    height:180px;
+}
+.ctnr .bh .main-logo{
+    width:100%;
+    height:30%;
+    background:url("../images/logo.png") no-repeat;
+    background-size:contain;
+    background-position:center center;
+}
+.ctnr .bh .title{
+    width:100%;
+    text-align:center;
+}
+.ctnr .bh #e{
+    font-family:'Covered By Your Grace', cursive;
+    font-size:4.5em;
+    line-height:1.5em;
+    margin-top:-10px;
+}
+.ctnr .bh #k{
+    font-size:1em;
+}
+
+.ctnr .mb{
+    width:100%;
+    /* height:auto; */
+    background:#f9f9f9;
+}
+.ctnr .mb .cb{
+    width:90%;
+    height:auto;
+    background:#fff;
+    margin:0 auto;
+}
+.ctnr .mb .cb .first{
+    width:100%;
+    min-height:400px;
+    height:auto;
+}
+.ctnr .mb .cb .first .fh{
+    width:100%;
+    height:100px;
+}
+/* .ctnr .mb .cb .first .fh a:hover{
+    width:100%;
+    height:200px;
+    background:#fff;
+    opacity:0.7;
+} */
+.ctnr .mb .cb .first a .shop-list:hover{
+    opacity:0.6;
+    transition:all 0.3s;
+}
+.ctnr .mb .cb .first a .shop-list{
+    width:90%;
+    float:left;
+    /* background:#ddd; */
+}
+.ctnr .mb .cb .first a .shop-list #shpli{
+    width:310px;
+    height:250px;
+    background:url("../images/main_menu_restaurant.png") no-repeat;
+    background-size:cover;
+    background-position:right center;
+    float:right;
+}
+.ctnr .mb .cb .first a .shop-list .cap{
+    width:54%;
+    float:right;
+    /* background:#ddd; */
+}
+.ctnr .mb .cb .first a .shop-list .cap .linkr{
+    padding:50px 30px 30px 0px;
+    /* background:#ccc; */
+}
+.ctnr .mb .cb .first a .cap p span{
+    color:#8ac2ad;
+}
+.ctnr .mb .cb .first a .cap .link-cap{
+    width:86%;
+    font-size:0.88em;
+    font-weight:400;
+    line-height:1.9em;
+    padding-left:7px;
+    /* background:#eee; */
+}
+
+.ctnr .mb .cb .second{
+    width:100%;
+    min-height:200px;
+    height:auto;
+    background:#f2f3e6;
+}
+.ctnr .mb .cb .second .mem-box{
+    width:30%;
+    height:auto;
+}
+.ctnr .mb .cb .second #login-box{
+    float:left;
+    margin-left:10%;
+    padding-top:38px;
+}
+.ctnr .mb .cb .second .mem-box p{
+    text-align:center;
+    padding:10px;
+}
+.ctnr .mb .cb .second .cbar{
+    width:1px;
+    height:100px;
+    margin:50px auto;
+    background:#333;
+    position:absolute;
+    left:50%;
+}
+.ctnr .mb .cb .second #join-box{
+    float:right;
+    margin-right:10%;
+    padding-top:38px;
+}
+
+.ctnr .mb .cb .third{
+    width:100%;
+    min-height:700px;
+    height:auto;
+}
+.ctnr .mb .cb .third .sldwrpr{
+    /* width:100%; */
+    /* background:#eee; */
+    padding-top: 100px;
+}
+.ctnr .mb .cb .third .sldwrpr p{
+    padding:0 0 50px 5%;
+}
+.ctnr .mb .cb .third .sldwrpr .sld{
+    width:90%;
+    /* background:#bbb; */
+    margin:0 auto;
+}
+.ctnr .mb .cb .third .sldwrpr .sld .mrev{
+    /* width:200px; */
+    height:400px;
+    background:#f5f5f5;
+    /* border-top:1px solid red; */
+    margin:0 1% 0 0;
+}
+.ctnr .mb .cb .third .sldwrpr .sld .mrev .mrvi{
+    width:86%;
+    height:280px;
+    background:#fff;
+    margin: 20px auto 0 auto;
+    
+
+}
+.ctnr .mb .cb .third .sldwrpr .sld .mrev .i1{
+    background:url("../images/fpy10.png") no-repeat;
+    background-size:cover;
+    background-position:center center;
+}
+.ctnr .mb .cb .third .sldwrpr .sld .mrev .i2{
+    background:url("../images/fpn2.jpg") no-repeat;
+    background-size:cover;
+    background-position:center bottom;
+}
+.ctnr .mb .cb .third .sldwrpr .sld .mrev .i3{
+    background:url("../images/fpch2.jpg") no-repeat;
+    background-size:cover;
+    background-position:center center;
+}
+.ctnr .mb .cb .third .sldwrpr .sld .mrev .i4{
+    background:url("../images/fpb3.png") no-repeat;
+    background-size:cover;
+    background-position:center bottom;
+}
+.ctnr .mb .cb .third .sldwrpr .sld .mrev .mrvc{
+    padding:12px 25px 20px 30px;
+    font-size:0.8em;
+}
+.ctnr .mb .cb .third .sldwrpr .sld .mrev .mrvc span{
+    color:#333;
+    line-height:2.3em;
+}
+
+.footer p{
+    font-size:0.8em;
+    color:#666;
+}
+.footer{
+    width:100%;
+    height:auto;
+    background:#d2e0d2;
+    background:#e8ebdd;
+    /* background:#858475;
+    background:#cef1e4; */
+}
+.footer .fh{
+    width:100%;
+    height:64px;
+    background:#eef0e7;
+}
+.footer .fh ul{
+    width:800px;
+    margin:0 auto;
+    height:100%;
+}
+.footer .fh ul li{
+    float:left;
+    padding:19px 60px;
+}
+.footer .fb{
+    clear:both;
+    width:80%;
+    height:160px;
+    margin:0 auto;
+}
+.footer .fb .ft{
+    width:30%;
+    height:90px;
+    float:left;
+    background:#e0e4d0;
+    padding-top:10px;
+}
+.footer .fb .ft .flg{
+    width:100%;
+    height:100%;
+    background:url("../images/logoGS.png") no-repeat;
+    background-size:contain;
+    background-position:center center;
+    opacity:0.5;
+}
+.footer .fb .ft p{
+    text-align:center;
+    background:#e0e4d0;
+}
+.footer .fb .ft p:last-child{
+    padding-bottom:12px;
+}
+.footer .fb .ft .fte{
+    font-family: 'Covered By Your Grace', cursive;
+    font-size:1.5em;
+}
+.footer .fb .ft .ftk{
+    font-size:0.9em;
+}
+.footer .fb .fc{
+    width:70%;
+    height:90%;
+    float:right;
+}
+.footer .fb .fc p{
+    width:45%;
+    height:130px;
+    float:left;
+    padding:14px 0 0 10px;
+    background:#d4d8c0;
+    background:#e0e4d0;
+}
+.footer .fb .fc p:first-child{
+    background:#d9ddc8;
+}
+
+.footer .ff{
+    clear:both;
+    width:100%;
+    height:50px;
+    margin:-50px 0 0 0;
+    /* background:#cacfba; */
+    background:#cacfba;
+}
+.footer .ff p{
+    text-align:center;
+    padding-top:15px;
+}
